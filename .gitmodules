@@ -1,0 +1,3 @@
+[submodule "Grade_3"]
+	path = Grade_3
+	url = git@github.com:NikitaBukhta/Univerity_Grade_3.git
