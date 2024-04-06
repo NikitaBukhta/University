@@ -1,0 +1,15 @@
+/************************************
+ * Laboratory work #5;              *
+ * Student Bukhta Mykyta;           *
+ * Grade: 3;                        *
+ * Group Software Engineering 3.04; *                       *
+ ************************************
+ */
+
+#ifndef BUKHTAMYKYTA_LAB_5_MATRIX
+#define BUKHTAMYKYTA_LAB_5_MATRIX
+
+#include "Matrix.hpp"
+#include "Matrix.cpp"
+
+#endif  // !BUKHTAMYKYTA_LAB_5_MATRIX;

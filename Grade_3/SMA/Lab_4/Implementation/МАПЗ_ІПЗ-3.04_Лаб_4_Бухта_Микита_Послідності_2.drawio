@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T20:27:18.988Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hhQnsGQ6UYiodYZS0BIV" version="22.1.4" type="device">
+  <diagram name="Страница — 1" id="bKkMhy-X8tQm5PACc8xV">
+    <mxGraphModel dx="1075" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="20" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-3" value="Система" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry x="45" y="550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-19" value="Оновити календар записів" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="-hUSExCQpqo0Ivf08ovX-18" parent="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry x="0.0061" relative="1" as="geometry">
+            <mxPoint x="50" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-4" value="Авторизація" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="110" as="sourcePoint" />
+            <mxPoint x="180" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-5" value="Статус входу" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="160" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-6" value="Відкрити профіль &quot;Записатися &lt;br&gt;на прийом до лікаря&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry x="0.0009" width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="210" as="sourcePoint" />
+            <mxPoint x="180" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-7" value="Список всіх лікарів" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-2">
+          <mxGeometry x="-0.0031" relative="1" as="geometry">
+            <mxPoint x="270" y="260" as="sourcePoint" />
+            <mxPoint x="190" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-8" value="Відобразити лікарів&lt;br&gt;за крітеріями" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="sourcePoint" />
+            <mxPoint x="180" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-9" value="Список лікарів" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-2">
+          <mxGeometry x="-0.0031" relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-10" value="Відкрити розклад лікаря" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="420" as="sourcePoint" />
+            <mxPoint x="180" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-11" value="Свободні ячейки запису &lt;br&gt;до лікаря" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+            <mxPoint x="190" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-12" value="Пацієнт" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="18" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-13" value="Записатися до лікаря" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="520" as="sourcePoint" />
+            <mxPoint x="180" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="20" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-15" value="Лікарь" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hUSExCQpqo0Ivf08ovX-16" value="Повідомленя о &lt;br&gt;новому запису" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-hUSExCQpqo0Ivf08ovX-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="560" as="sourcePoint" />
+            <mxPoint x="350" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

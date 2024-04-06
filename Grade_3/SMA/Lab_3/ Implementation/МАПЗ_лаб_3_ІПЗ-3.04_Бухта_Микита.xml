@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" modified="2023-11-26T10:17:18.927Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8OYwrXXGmOE0U9OTwhj2" version="22.1.4" type="device">
+  <diagram name="Страница — 1" id="-XpqPguDSKAkYyBmLtFA">
+    <mxGraphModel dx="455" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-1" value="Процес 1&lt;br&gt;Проконсультувати &lt;br&gt;клієнта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-2" target="MVLICBZlhOPqtG2rY0MZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-2" value="Процес 2&lt;br&gt;Додати діагноз до мед історії пацієнта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-3" value="Процес 3&lt;br&gt;Записати на аналіз" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-4" value="Процес 4&lt;br&gt;Виписати медикаменти пацієнту" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-6" value="1&lt;br&gt;Мед сестра-консультант" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-6" target="MVLICBZlhOPqtG2rY0MZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-8" value="2&lt;br&gt;Лікар" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-8" target="MVLICBZlhOPqtG2rY0MZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="384" y="200" />
+              <mxPoint x="300" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-8" target="MVLICBZlhOPqtG2rY0MZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="230" as="sourcePoint" />
+            <mxPoint x="580" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="444" y="200" />
+              <mxPoint x="500" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-3" target="MVLICBZlhOPqtG2rY0MZ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="240" />
+              <mxPoint x="414" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-1" target="MVLICBZlhOPqtG2rY0MZ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="sourcePoint" />
+            <mxPoint x="230" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="180" />
+              <mxPoint x="240" y="180" />
+              <mxPoint x="240" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-13" value="Пацієнт записується&lt;br&gt;на прийом" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="214" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-17" value="Лікар робить &lt;br&gt;діагноз після &lt;br&gt;відвідування &lt;br&gt;пацієнта" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="264" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-18" value="При необхідності &lt;br&gt;лікар записує &lt;br&gt;пацієнта на &lt;br&gt;сдачу аналізів" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-19" value="Результати" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="394" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-8" target="MVLICBZlhOPqtG2rY0MZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="150" as="sourcePoint" />
+            <mxPoint x="600" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-21" value="Виписати медикаменти для лікування" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="80" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-22" value="Таблиця 1&lt;br&gt;&quot;Медикаменти&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="704" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-22" target="MVLICBZlhOPqtG2rY0MZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="700" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="764" y="390" />
+              <mxPoint x="730" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-24" value="Таблиця 2&lt;br&gt;&quot;Аналізи&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.694;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-24" target="MVLICBZlhOPqtG2rY0MZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="400" />
+              <mxPoint x="523" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-27" value="Таблиця 3&lt;br&gt;&quot;Прийом&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-30" value="Запис результатів &lt;br&gt;прийому" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="353" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-32" value="Таблиця 4&lt;br&gt;&quot;Повідомлення&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.339;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-1" target="MVLICBZlhOPqtG2rY0MZ-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="410" as="sourcePoint" />
+            <mxPoint x="180" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="400" />
+              <mxPoint x="160" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.667;exitY=-0.069;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-32" target="MVLICBZlhOPqtG2rY0MZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="410" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="380" />
+              <mxPoint x="130" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-35" value="Оновлення &lt;br&gt;переписки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-36" value="Запис &lt;br&gt;нового &lt;br&gt;повідомлення" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-37" value="Вибір одного з &lt;br&gt;доступних типів &lt;br&gt;аналізів" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="343" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-38" value="Таблиця 5&lt;br&gt;&quot;Виписані лікарства&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MVLICBZlhOPqtG2rY0MZ-4" target="MVLICBZlhOPqtG2rY0MZ-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="430" as="sourcePoint" />
+            <mxPoint x="710" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-40" value="Заповнення даних &lt;br&gt;виписаних &lt;br&gt;медикаментів" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="530" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVLICBZlhOPqtG2rY0MZ-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Діаграма першого рівня декомпозиції DFD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="600" width="420" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

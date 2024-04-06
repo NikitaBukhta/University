@@ -1,0 +1,15 @@
+/************************************
+ * Laboratory work #5;              *
+ * Student Bukhta Mykyta;           *
+ * Grade: 3;                        *
+ * Group Software Engineering 3.04; *                       *
+ ************************************
+ */
+
+#ifndef BUKHTAMYKYTA_LAB_5_VECTOR
+#define BUKHTAMYKYTA_LAB_5_VECTOR
+
+#include "Vector.hpp"
+#include "Vector.cpp"
+
+#endif  // !BUKHTAMYKYTA_LAB_5_VECTOR;
