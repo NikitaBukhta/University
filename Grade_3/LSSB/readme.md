@@ -1,1 +1,1 @@
-Life Safety and Security basics
+Life Safety and Security Basics
