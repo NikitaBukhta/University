@@ -1,1 +1,1 @@
-Telecommunication Information Networks
+Telecommunication Information Networks (Телекомунікаційні Інформаційні Мережі)

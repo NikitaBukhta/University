@@ -1,1 +1,1 @@
-Life Safety and Security Basics
+Life Safety and Security Basics (Безпека життєдієльності та Охорона Праці)

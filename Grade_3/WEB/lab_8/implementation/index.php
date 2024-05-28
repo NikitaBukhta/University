@@ -30,10 +30,15 @@ if (isset($_POST['add_book'])) {
     $genre = $_POST['genre'];
     $publication_year = $_POST['publication_year'];
     $isbn = $_POST['isbn'];
+    $current_year = date("Y");
 
-    $query = "INSERT INTO books (title, author, genre, publication_year, isbn) VALUES ('$title', '$author', '$genre', $publication_year, '$isbn')";
-    $db->exec($query);
-    echo "Книга успішно додана.";
+    if ($publication_year >= 0 && $publication_year <= $current_year) {
+        $query = "INSERT INTO books (title, author, genre, publication_year, isbn) VALUES ('$title', '$author', '$genre', $publication_year, '$isbn')";
+        $db->exec($query);
+        echo "Книга успішно додана.";
+    } else {
+        echo "Некоретний рік випуску книги";
+    }
 }
 
 // Видалення книги

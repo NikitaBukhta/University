@@ -1,1 +1,1 @@
-Analysis of Software Requirements
+Analysis of Software Requirements (Аналіз Вимог до Програмного Забезпечення)

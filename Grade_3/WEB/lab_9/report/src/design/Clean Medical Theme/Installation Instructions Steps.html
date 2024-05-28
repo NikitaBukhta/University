@@ -1,0 +1,69 @@
+<html>
+  <head>
+  <title>Clean Medical - Installation Instructions/Steps</title>
+  <style>
+    p {font-weight:bold;font-style:italic;padding:10px;}
+    img {margin:10px;}
+  </style>
+  </head>
+<body>
+<h1>Clean Medical Theme - Installation Instructions/Steps</h1>
+<p>It is VERY important you follow <b>all these steps</b> in the <b>exact same order</b>, else your installation will not work.</p>
+<h2>1. Add Theme</h2>
+<p>In Wordpress, go to Appearance -> Themes and click on "Add New" then "Upload Theme". Upload and install the theme (cleanmedical.zip) and activate the theme
+  <br/><img src="img/add_theme.png">
+</p>
+<h2>2. Install Required Plugins</h2><p>After activating the theme, at the top of the admin it will show a list of plugins required by the theme. Install AND activate all of them (no downloading required, they are bundled with the theme)
+  <br/><img src="img/required_plugins.png">
+</p>
+<h2>3. Import Post Types</h2><p>In Wordpress admin go to CPT UI -> Tools. Paste the contents of “import post types - copy and paste.txt” in the area titled "Import Post Types" and click Import. IMPORTANT: This step MUST be done before Step 5 below!
+  <br/><img src="img/import_post_types.png">
+</p>
+<h2>4. Import Taxonomies</h2><p>In the same CPT UI -> Tools area, click on "Taxonomies".  Paste the contents of “import taxonomies - copy and paste.txt” in the area titled "Import Taxonomies" and click Import. IMPORTANT: This step MUST be done before Step 5 below!
+  <br/><img src="img/import_taxonomies.png">
+</p>
+<h2>5. Import Sample Data</h2><p>In Wordpress admin go to Tools -> Import. If the “Wordpress” importer is not already installed, install it. Then click on “Run Importer” under "Wordpress". Import the file “cleanmedicaltheme-import-data.xml” and assign an admin user for posts and choose to import attachments
+  <br/><img src="img/import_wordpress_data.png">
+  <br/><img src="img/import_wordpress_data_2.png">
+</p>
+<h2>6. Import Options</h2><p>In Wordpress admin go to Tools -> Import. Under “Options” click “Run Importer” to import options. Import the file “cleanmedicaltheme-options.json” and choose to import all options. These are only options related to this theme, it will NOT replace core Wordpress options
+  <br/><img src="img/import_wordpress_options.png">
+</p>
+<h2>7. Set Homepage And Blog Page</h2><p>Set your Home Page and Blog page: Go to Appearance -> Customize in Wordpress admin. Click on “Homepage Settings” and set “Home” as Homepage and “Blog” as Posts page
+  <br/><img src="img/set_homepage_and_blog_page.png">
+</p>
+<hr noshade width="25%"/>
+<p>That’s it for installation! You can now edit all various pages from the Wordpress admin. Make sure to set up your header and footer details (like contact info, hours, etc) under Header & Footer Settings, and also configure your Contact page map under Store Locator -> Settings (A Google Maps API key is not provided, you must provide your own Google Maps API keys). Continue reading on below for how to use the theme...</p>
+<h1>Clean Medical Theme - How to Use</h1>
+<h2>Update Site Title / Logo</h2>
+<p>To update the logo with your logo, go to Wordpress admin -> Header & Footer Settings -> Main Header. Hover over the existing image and click the pencil icon to change the logo. Do the same thing in the same Wordpress area under the Footer tab (many may want to use a different size logo in the header vs the footer). Then go to Appearance -> Customize -> Site Identity. From there also update the logo and site title.</p>
+<h2>Edit Header & Footer</h2>
+<p>Header and footer details, such as contact info, locations, etc can be updated from Wordpress admin -> Header & Footer Settings -> Header top and Wordpress admin -> Header & Footer Settings -> Footer. For your tweets/posts from Twitter/X to show in the footer, you must link your Twitter/X account under Wordpress Admin -> Twitter Feeds. If you do not link your Twitter/X, this area is left blank. Do NOT change the Book appointment button configuration unless you know what you are doing and do not want to use the default book appointment functionality.</p>
+<h2>Edit Home Page</h2>
+<p>To edit the home page go to Wordpress Admin -> Pages and find the "Home" page and open it for editing. The actual content of the page is loaded from all the custom fields shown under the "Front Page" tab here. Under there, the sub-tabs allow you to edit each section.</p>
+<h3>Home - Banner Section</h3>
+<p>From here you can edit the images and text which show in the carousel slider on the home page. You can upload any size image you want, but it will look better for the end user if they are all the same dimension images. You may add captions, descriptions and a link for each one.</p>
+<h3>Home - Hero Section (Great Day)</h3>
+<p>This is the area to introduce your business with a picture and text</p>
+<h3>Home - Our Services Section</h3>
+<p>This is another section for the list of your services where you can provide images, captions and descriptions. You can upload any size image you want, but it will look better for the end user if they are all the same dimension images.</p>
+<h3>Home - Testimonials Section</h3>
+<p>This is another carousel slider for the list of your testimonials where you can provide images, captions and descriptions. You can upload any size image you want, but it will look better for the end user if they are all the same dimension images. This is a different list of testimonials than your dedicated testimonials page. Most may choose to have a shorter list on their home page.</p>
+<h3>Home - Certifications Section</h3>
+<p>This is for a list of the certifications or awards your organization has received. You can upload images and titles here.</p>
+<h3>Home - Form Section</h3>
+<p>This is to configure the contact form shown on the home page. You should only need to change the image shown, so it matches your address. You may wish to provide a screenshot from Google Maps here. The form shortcode should not be edited unless you know what you're doing and want to use a different contact form. The default form shown can be edited under Wordpress Admin -> Contact -> Contact Form.</p>
+<h2>Edit Contact Page</h2>
+<p>The contact page can be edited in two areas. The form itself is edited under Wordpress Admin -> Contact -> Contact form. In here you can change the fields, their labels, and how to handle the mail. The rest of the contact page can be edited under Wordpress Admin -> Pages -> Contact. You can edit the title, sub-title and if you want to edit the store/location finder, you must do that under Wordpress -> Store Locator. When adding a store/location include the latitude/longitude so directions finding works.</p>
+<h2>Edit Book Appointment Forms</h2>
+<p>The book appointment forms can be edited under Wordpress Admin -> Contact. There are two forms here for booking appointments - one is the shorter general appointment booking form found on the footer and home page titled "Book your appointment". The other one titled "Book Appointment Staff" - this one is just for booking requests made under the Team/Staff page after clicking to view a staff member. The first thing you should do is edit the drop down list of services for which service the user wishes to book. You can add as many services as you want to the shortcode.</p>
+<h2>Edit Team/Staff Page</h2>
+<p>The Team/Staff page is edited in two places. For the staff types/categories you edit those under Wordpress Admin -> Staff -> Staff Types. Some default ones come with the sample data but you can change them. To edit the actual team members/staff, do that under Wordpress Admin -> Staff -> All Staff (or Add New).</p>
+<h2>Edit FAQ Page</h2>
+<p>The FAQ page is very simple to edit - under Wordpress Admin -> Pages -> FAQ. There are two sections - one for the list of FAQs, and another for handy help articles or other links you want to provide on the sidebar.</p>
+<h2>Edit Press Page</h2>
+<p>The Press page is also simple to manage/edit - under Wordpress Admin -> Press -> All Press (or Add New). The main Press page just pulls the excerpt, title and image. Upon clicking then the user views the full press details from the main content area on a separate page.</p>
+<h2>Edit Testimonials Page</h2>
+<p>The Testimonials Page is edited directly under Wordpress Admin -> Pages -> Testimonials. From here you can provide a picture, content, reviewer name, designation/title (or other), and a signature or logo if desired. There are three different groups of testimonials - top section, best section and bottom section for Testimonials page. </p>
+</body>
+</html>
