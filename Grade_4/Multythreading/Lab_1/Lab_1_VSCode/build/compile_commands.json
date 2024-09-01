@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/multythreading_lab_1_autogen/mocs_compilation.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/mocs_compilation.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/main.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/main.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/main.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Core/Starter.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Core/Starter.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Core/Starter.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Core/BaseInfoDisplayer.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Core/BaseInfoDisplayer.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Core/BaseInfoDisplayer.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Launcher/LaboratoryStarter.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Launcher/LaboratoryStarter.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Launcher/LaboratoryStarter.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Tasks/Task1.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task1.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task1.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Tasks/Task2.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task2.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task2.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Tasks/Task3.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task3.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task3.cpp"
+},
+{
+  "directory": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/multythreading_lab_1_autogen/include -I/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -fPIC -std=gnu++20 -o CMakeFiles/multythreading_lab_1.dir/SourceFiles/Tasks/Task4.cpp.o -c /home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task4.cpp",
+  "file": "/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/SourceFiles/Tasks/Task4.cpp"
+}
+]

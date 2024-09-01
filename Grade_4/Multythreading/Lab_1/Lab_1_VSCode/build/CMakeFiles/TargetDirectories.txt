@@ -1,0 +1,4 @@
+/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/CMakeFiles/multythreading_lab_1.dir
+/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/CMakeFiles/edit_cache.dir
+/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/CMakeFiles/rebuild_cache.dir
+/home/mbukhta/Documents/University/Grade_4/Multythreading/Lab_1/Lab_1_VSCode/build/CMakeFiles/multythreading_lab_1_autogen.dir
