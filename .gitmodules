@@ -5,3 +5,6 @@
 [submodule "Grade_4/DPCS/lab_1/helloworld-demo-node"]
 	path = Grade_4/DPCS/lab_1/helloworld-demo-node
 	url = https://github.com/dockersamples/helloworld-demo-node
+[submodule "Grade_4/DPCS/lab_1/todo-list-app"]
+	path = Grade_4/DPCS/lab_1/todo-list-app
+	url = https://github.com/dockersamples/todo-list-app
