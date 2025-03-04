@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="radar-graph" style="width:600px;height:600px;"></div>
+    <script>
+        // Ініціалізація порожнього графіка
+        Plotly.newPlot('radar-graph', [{
+            type: 'scatterpolar',
+            mode: 'markers',
+            r: [],
+            theta: [],
+            marker: {
+                color: [],
+                size: [],
+                symbol: 'circle' // Стиль точки
+            }
+        }]);
+
+        // Функція для додавання даних на графік
+        function addDataToGraph(angle, distance, power) {
+            let color;
+            if (power > 0.05) {
+                color = 'red'; // Висока потужність
+            } else if (power > 0.02) {
+                color = 'orange'; // Середня потужність
+            } else {
+                color = 'blue'; // Низька потужність
+            }
+
+            const size = power * 50; // Розмір точки пропорційний до потужності
+
+            // Оновлюємо існуючий графік
+            Plotly.extendTraces('radar-graph', {
+                r: [[distance]],
+                theta: [[angle]],
+                'marker.color': [[color]],
+                'marker.size': [[size]]
+            }, [0]);
+        }
+
+        // Приклад WebSocket підключення
+        const socket = new WebSocket('ws://localhost:4000');
+
+        socket.onopen = () => {
+            console.log('Підключено до WebSocket сервера');
+        };
+
+        socket.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            console.log('Отримані дані:', data);
+
+            const { scanAngle, echoResponses } = data;
+            echoResponses.forEach(response => {
+                const distance = response.time * 150; // Час (с) * швидкість світла (км/с) / 2
+                const power = response.power;
+
+                // Додаємо точку на графік
+                addDataToGraph(scanAngle, distance, power);
+            });
+        };
+
+        socket.onclose = () => {
+            console.log('З\'єднання закрито');
+        };
+
+        socket.onerror = (error) => {
+            console.error('Помилка WebSocket:', error);
+        };
+    </script>
+</body>
+</html>

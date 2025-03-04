@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Emulator Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #controls {
+            margin-bottom: 20px;
+        }
+        #plot {
+            width: 80%;
+            height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>GPS Emulator Dashboard</h1>
+    <div id="controls">
+        <label for="satelliteSpeed">Satellite Speed (km/h):</label>
+        <input type="number" id="satelliteSpeed" value="100" />
+        <label for="objectSpeed">Object Speed (km/h):</label>
+        <input type="number" id="objectSpeed" value="10" />
+        <button onclick="updateConfig()">Update Config</button>
+    </div>
+    <div id="plot"></div>
+
+    <script>
+        const ws = new WebSocket('ws://localhost:4001');
+        let satelliteData = [];
+        let objectData = [];
+
+        ws.onmessage = function(event) {
+            const message = JSON.parse(event.data);
+            if (message.id.startsWith('satellite')) {
+                satelliteData.push({ x: message.x, y: message.y });
+            } else {
+                objectData.push({ x: message.x, y: message.y });
+            }
+            plotData();
+        };
+
+        function plotData() {
+            const satelliteTrace = {
+                x: satelliteData.map(d => d.x),
+                y: satelliteData.map(d => d.y),
+                mode: 'markers',
+                type: 'scatter',
+                name: 'Satellites',
+                marker: { color: 'blue' }
+            };
+            const objectTrace = {
+                x: objectData.map(d => d.x),
+                y: objectData.map(d => d.y),
+                mode: 'markers',
+                type: 'scatter',
+                name: 'Object',
+                marker: { color: 'red' }
+            };
+            const data = [satelliteTrace, objectTrace];
+            Plotly.newPlot('plot', data);
+        }
+
+        function updateConfig() {
+            const satelliteSpeed = document.getElementById('satelliteSpeed').value;
+            const objectSpeed = document.getElementById('objectSpeed').value;
+
+            fetch('http://localhost:4001/config', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    satelliteSpeed: Number(satelliteSpeed),
+                    objectSpeed: Number(objectSpeed)
+                })
+            })
+            .then(response => response.json())
+            .then(data => console.log('Config updated:', data))
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
