@@ -8,3 +8,9 @@
 [submodule "Grade_4/DPCS/lab_1/todo-list-app"]
 	path = Grade_4/DPCS/lab_1/todo-list-app
 	url = https://github.com/dockersamples/todo-list-app
+[submodule "Grade_4/testiing/pw/lab1-unittests-NikitaBukhta"]
+	path = Grade_4/testiing/pw/lab1-unittests-NikitaBukhta
+	url = git@github.com:Mykhailo-Panasenko/lab1-unittests-NikitaBukhta.git
+[submodule "Grade_4/testiing/pw/lab2-unittest-mock-s-NikitaBukhta"]
+	path = Grade_4/testiing/pw/lab2-unittest-mock-s-NikitaBukhta
+	url = git@github.com:Mykhailo-Panasenko/lab2-unittest-mock-s-NikitaBukhta.git
